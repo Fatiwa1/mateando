@@ -1,0 +1,68 @@
+
+.SectionPost{
+    margin: 50px auto 0;
+    width: 500px;
+    background: #D7B19D;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.3), -5px 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  }
+  .SectionPost-Logo{
+    width: 50px;
+    border-radius: 50%;
+  }
+  .SectionPost-Nombre{
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+  }
+  .SectionPost-Titulo{
+    font-size: 19px;
+  }
+  .SectionPost-ContContenido{
+    margin-left: 50px;
+    overflow-wrap: break-word;
+  }
+  .Contenedor-ButtonPublicar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ButtonPublicar{
+    border: none;  /* Elimina el borde del botón si lo hay */
+    padding: 0;    /* Elimina cualquier espacio de relleno dentro del botón */
+    background: none;
+  }
+  .ButtonPublicar img{
+    width: 50px;
+  }
+  .ArticuloPublicaciones{
+    padding: 20px 20px;
+    margin: 100px auto 0;
+    width: 550px;
+    background: rgb(235, 235, 235);
+    border-radius: 10px;
+  }
+  .InfoPublicacion{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    
+  }
+  
+  .Contenedor-Comentario{
+    width: 350px;
+    margin: 0 auto;
+    border-top: 1px solid black;
+  }
+
+  .Contenedor-hacerComentario{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .Button-CrearComentario{
+    margin: 0px;
+    font-size: 10px;
+  }

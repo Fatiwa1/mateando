@@ -1,0 +1,13 @@
+.header-nav{
+  text-align: center;
+}
+.header-nav > * {
+  display: inline-block;
+  margin: 0 10px;
+}
+.header-nav-logo{
+  width: 250px;
+}
+.header-nav-links{
+  color: white;
+}
