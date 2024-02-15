@@ -1,0 +1,38 @@
+.ContenedorBusqueda{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background: #C68B59;
+    position: absolute;
+    padding: 10px  10px;
+}
+.ContenedorBusquda-Busqueda{
+    background: white;
+    text-align: start;
+    display: flex;
+    border-radius: 10px;
+    border: none;
+}
+.ContenedorBusquda-Busqueda:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    transform: translate(3px, 3px);
+}
+.ContenedorBusqueda-Busqueda-Imagen{
+    width: 30px;
+    margin-left: 10px;
+    padding: 0;
+}
+.ContenedorBusquda-Busqueda-Textos{
+    display: flex;
+    flex-direction: column;  
+    margin-left: 10px; 
+}
+.ContenedorBusquda-Busqueda-Textos span{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.ContenedorBusquda-Busqueda-Textos p{
+    margin: 0;
+}

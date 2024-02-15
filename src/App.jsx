@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import './App.css'
 import LinksHeader from './components/LinksHeader'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import ButtonComentar from './components/ComentacionesUsuarios';
-import ButtonPublicar from './components/PublicacionesUsuarios';
-import BuscadorYerbas from './components/BuscadorYerbas';
+import ButtonPublicar from './components/ContenedorPublicacionesComentaciones/PublicacionesUsuarios';
+import BuscadorYerbas from './components/ContenedorBuscadorYerbas/BuscadorYerbas';
+import ReseñaLibros from './components/ReseñaLibros';
 function App() {
   return (
     <Router>
@@ -33,7 +33,10 @@ function App() {
             </main>
           </>
         } />
+        <Route path='/components/ReseñaLibros' element={<ReseñaLibros />} />
+        <Route path='/components/ContenedorBuscadorYerbas/BuscadorYerbas' element={<BuscadorYerbas />}/>
       </Routes> 
+      
     </Router>
   )
 }
