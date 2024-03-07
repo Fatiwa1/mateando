@@ -1,0 +1,54 @@
+.ArticuloResena{
+    margin-top: 100px;
+}
+.ArticuloResena-Yerba{
+    
+    display: flex;
+    flex-direction: auto;
+    margin: 0 auto;
+    width: 600px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ArticuloResena-Yerba-imagen{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 50px;
+    width: 150px;
+}
+.ArticuloResena-Yerba-imagen button{
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #C68B59;
+    color: white;
+    padding: 5px;
+}
+.ArticuloResena-Yerba-descripcion span{
+    position: relative;
+    bottom: 25px;
+}
+.ArticuloResena-Yerba-descripcion h2{
+    font-size: 30px;
+}
+.ArticuloResena-Yerba-descripcion-tipo{
+    display: flex;
+    flex-direction: auto;
+    margin: 0;
+    padding: 0;
+}
+.ArticuloResena-Yerba-descripcion-tipo p{
+    font-size: 17px;
+}
+.PuntuacionEstrellas{
+    padding: 0;
+    width: auto;
+    height: auto;
+    background: none;
+    border: none;
+    margin: 10px 2.5px 0;
+}
+.PuntuacionEstrellas img{
+    width: 30px;
+}

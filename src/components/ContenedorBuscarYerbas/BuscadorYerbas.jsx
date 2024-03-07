@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import ContenedorYerbas from "./CatalogoYerbas";
-import "../ContenedorEstilos/Busqueda.css";
+import ContenedorYerbas from "./TablaYerbas";
+import "../ContenedorEstilos/BuscadorYerbas.css";
 import App from "../../App";
 
 function BuscadorYerbas() {
@@ -11,7 +11,7 @@ function BuscadorYerbas() {
 
     useEffect(() => {
         //Cuando se produce un cambio en el estado y se cumple la condicion empieza a filtrar la busqueda
-        if (busqueda.length >= 3) {
+        if (busqueda.length >= 2) {
             filtrar(busqueda);
         } else {
             setYerbas([]); // Si hay menos de tres letras, no mostrar ninguna yerba.
@@ -45,8 +45,8 @@ function BuscadorYerbas() {
             {yerbas.length >= 1 && (
                 <ul className="ContenedorBusqueda">
                     {yerbas.map((yerba) => (
-                        <Link to="/components/ReseñaLibros" className="ContenedorBusquda-Busqueda" key={yerba.index}>
-                            <img className="ContenedorBusqueda-Busqueda-Imagen" src={yerba.imagen} alt="Yerbas" />
+                        <Link to="/components/ContenedorManejoYerbas/InformacionYerba" state={{ index: yerba.index }} className="ContenedorBusquda-Busqueda" key={yerba.index}>
+                            <img className="ContenedorBusqueda-Busqueda-Imagen" src={`../../public/imagenes/${yerba.imagen}`} alt="Yerbas" />
                             <div className="ContenedorBusquda-Busqueda-Textos">
                                 <span className="ContenedorBusqueda-Busqueda-Textos-Titulo">{yerba.nombre}</span> 
                                 <p>{yerba.marca}</p>

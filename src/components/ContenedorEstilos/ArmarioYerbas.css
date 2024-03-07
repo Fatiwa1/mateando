@@ -1,0 +1,41 @@
+.ArticuloSobrePagina-section{
+}
+
+.SubTitulo{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.Contenedor-Card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+}
+.Card{
+    text-align: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Card-info{
+    display: flex;
+    flex-direction: column;
+}
+.Card-info h3{
+    color: black;
+}
+.Card-info img{
+    width: 50px;
+    margin: auto;
+}
+.Card-puntuaciones button{
+    columns: auto;
+}
+.buttonEliminar{
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #C68B59;
+    color: white;
+    padding: 5px;
+}

@@ -1,0 +1,69 @@
+*{
+}
+.articuloPerfil{
+    width: 1000px;
+    margin: 100px auto;
+    background: #a07045;
+    padding: 25px;
+    color: white;
+}
+.SectionInfo{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.SectionInfo-ContenedorLogo img{
+    width: 150px;
+    border-radius: 50%;
+}
+.SectionInfo-ContenedorLogo{
+    display: flex;
+    flex-direction: column;
+}
+.SectionInfo-ContenedorLogo-Link{
+    margin: 5px 0 0 20px;
+}
+
+.SectionInfo-ContenedorNombre{
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+}
+.SectionInfo-ContenedorNombre-Button{
+    margin: 22px 0 0 10px;
+    font-size: 13px;
+    background: none;
+    border: none;
+}
+.Contenedor-Card2{
+}
+.Card2{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: max-content;
+}
+.Card-info2{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+.Card-info2 h3,span{
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+.Card-info2 img{
+    width: 50px;
+}
+.Card-puntuaciones2{
+    margin-top: 15px;
+}
+.Card-puntuaciones2 button{
+    columns: auto;
+}

@@ -1,0 +1,67 @@
+.ArticuloYerbas{
+}
+.ListaBuscar{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul, li{
+    list-style: none;
+    text-align: start;
+  }
+
+.LiMarca {
+  flex: calc(27% - 20px); /* Ajusta el ancho y el margen según tus necesidades */
+  text-align: center;
+  margin: 10px;
+  box-sizing: border-box;
+  background: white;
+  color: white;
+  background: #a07045;
+  z-index: 1;
+  margin: 10px 30px;
+  border-radius: 10px;
+}
+h3, h4{
+    text-align: center;
+}
+  .LiTipo{
+    text-align: center;
+    margin: 10px 0;
+  }
+  .LisBuscar-tipo {
+    list-style: none;
+    padding-right: 50px;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  .LiNombre{
+    text-align: center;
+    margin: 10px auto;
+    box-sizing: border-box;
+  }
+  .Contenedor-LiMarca{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;  
+  }
+@media (max-width: 1350px) {
+  .LiMarca {
+    flex: calc(45% - 20px);
+    margin: 10px 30px;
+  }
+}
+@media (max-width: 900px) {
+  .LiMarca {
+    flex: calc(51% - 20px);
+    margin: 10px 100px;
+  }
+}
+@media (max-width: 600px) {
+  .LiMarca {
+    flex: calc(51% - 20px);
+    margin: 10px 30px;
+  }
+}

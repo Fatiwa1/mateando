@@ -1,0 +1,42 @@
+.SectionRegistro{
+    width: 1000px;
+    margin: 150px auto 0;
+    text-align: center;
+    padding: 20px;
+    background: #a07045;
+}
+.SectionRegistro-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background: white;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.SectionRegistro-form a{
+    width: max-content;
+    margin-top: 10px;
+    color: black;
+} 
+.SectionRegistro-form input{
+    height: 35px;
+    width: 500px;
+    border-radius: 17px;
+    margin: 0 auto;
+}
+.SectionRegistro-form label{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.SectionRegistro-form button{
+    height: 35px;
+    border-radius: 17px;
+    width: max-content;
+    margin: 20px auto 0;
+    font-size: 17px;
+
+}
+.SectionRegistro-form p{
+    color: black;
+}

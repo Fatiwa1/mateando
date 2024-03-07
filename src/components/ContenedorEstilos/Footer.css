@@ -1,0 +1,23 @@
+.ContentContainer {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .Footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+  .Footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    margin: 0 auto;
+  }
+  .Footer-Contactenos-Links img{
+    width: 30px;
+  }
